@@ -13,3 +13,7 @@ build/
 .vscode/
 .idea/
 
+# Node
+node_modules/
+dist/
+.vite/
