@@ -420,12 +420,10 @@
   align-items: center;
   justify-content: center;
   background: 
-    linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%),
-    /* Hexagon pattern */
-    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0, 212, 255, 0.02) 2px, rgba(0, 212, 255, 0.02) 4px),
-    repeating-linear-gradient(60deg, transparent, transparent 2px, rgba(0, 212, 255, 0.02) 2px, rgba(0, 212, 255, 0.02) 4px),
-    repeating-linear-gradient(120deg, transparent, transparent 2px, rgba(0, 212, 255, 0.02) 2px, rgba(0, 212, 255, 0.02) 4px);
-  background-size: 100% 100%, 100px 100px, 100px 100px, 100px 100px;
+    linear-gradient(135deg, #111111 0%, var(--bg-secondary) 100%),
+    url('/images/pattern.svg');
+  background-size: 100% 100%, 120px 120px;
+  background-repeat: no-repeat, repeat;
   position: relative;
   overflow: hidden;
 }
@@ -453,26 +451,12 @@
   right: 0;
   bottom: 0;
   background-image: 
-    /* Grid pattern */
-    linear-gradient(rgba(0, 212, 255, 0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 212, 255, 0.08) 1px, transparent 1px),
-    /* Dot pattern */
-    radial-gradient(circle, rgba(0, 212, 255, 0.15) 1.5px, transparent 1.5px),
-    /* Diagonal lines */
-    repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(0, 212, 255, 0.03) 10px, rgba(0, 212, 255, 0.03) 11px);
-  background-size: 
-    80px 80px,
-    80px 80px,
-    50px 50px,
-    100px 100px;
-  background-position:
-    0 0,
-    0 0,
-    25px 25px,
-    0 0;
+    /* Grid overlay */
+    linear-gradient(rgba(0, 212, 255, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 212, 255, 0.12) 1px, transparent 1px);
+  background-size: 80px 80px;
   pointer-events: none;
-  opacity: 0.7;
-  animation: patternShift 20s linear infinite;
+  opacity: 0.8;
 }
 
 @keyframes patternShift {

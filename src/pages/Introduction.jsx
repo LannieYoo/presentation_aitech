@@ -18,12 +18,10 @@ function Introduction() {
 
       <section className="section">
         <h2>Goal of Our Project</h2>
-        <ul className="key-points">
-          <li>Use a camera and MediaPipe hands to control turtlesim.</li>
-          <li>Understand how ROS2 nodes, topics, publishers, and subscribers work together.</li>
-          <li>Learn from real environment problems such as wifi setup, camera support, and network delay.</li>
-          <li>Prepare useful tips for future students who will do the same labs.</li>
-        </ul>
+        <p>Use a camera and MediaPipe hands to control turtlesim.</p>
+        <p>Understand how ROS2 nodes, topics, publishers, and subscribers work together.</p>
+        <p>Learn from real environment problems such as wifi setup, camera support, and network delay.</p>
+        <p>Prepare useful tips for future students who will do the same labs.</p>
       </section>
 
       <section className="section">
