@@ -5,6 +5,25 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ROS2 Vision Presentation</title>
+    <script>
+      // Redirect logic for GitHub Pages
+      (function() {
+        var path = window.location.pathname;
+        var basePath = '/presentation_aitech';
+        
+        // If path doesn't start with basePath, redirect
+        if (path.indexOf(basePath) !== 0 && path !== '/' && path !== basePath && path !== basePath + '/') {
+          var redirectPath = basePath + path;
+          if (window.location.search) {
+            redirectPath += window.location.search;
+          }
+          if (window.location.hash) {
+            redirectPath += window.location.hash;
+          }
+          window.location.replace(redirectPath);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
