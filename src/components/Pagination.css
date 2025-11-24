@@ -37,7 +37,7 @@
   border-radius: 8px;
   transition: all 0.3s ease;
   border: 1px solid transparent;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 .pagination-link:hover {
@@ -209,7 +209,7 @@
   }
 
   .page-title {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   /* Overlay when menu is open */

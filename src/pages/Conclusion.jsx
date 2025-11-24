@@ -10,9 +10,9 @@ function Conclusion() {
 
       <section className="section">
         <h2>Key Learnings</h2>
-        <p>ROS2 concepts (node, topic, publisher, subscriber) became clear with practice.</p>
-        <p>Biggest challenges: <strong>wifi setup, camera detection, network delay</strong> - not the code logic.</p>
-        <p>Once environment worked, everything else was manageable.</p>
+        <p>• ROS2 concepts (node, topic, publisher, subscriber) became clear with practice</p>
+        <p>• Biggest challenges: <strong>wifi setup, camera detection, network delay</strong> - not code logic</p>
+        <p>• Once environment worked, everything else was manageable</p>
       </section>
 
       <section className="section">

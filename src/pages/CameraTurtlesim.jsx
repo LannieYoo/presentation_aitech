@@ -10,18 +10,18 @@ function CameraTurtlesim() {
 
       <section className="section">
         <h2>Camera Problem on VMware</h2>
-        <p>At first we tried to use a virtual machine on a personal laptop.</p>
-        <p>Inside VMware the camera was not detected in a stable way.</p>
-        <p>We spent a lot of time trying to make the camera work.</p>
-        <p>Because the camera was not reliable it was hard to test MediaPipe.</p>
+        <p>• Initially tried using a virtual machine on personal laptop</p>
+        <p>• Camera detection was unstable inside VMware</p>
+        <p>• Spent significant time troubleshooting camera issues</p>
+        <p>• Unreliable camera made MediaPipe testing difficult</p>
       </section>
 
       <section className="section">
         <h2>Switch to Loaner Laptop for Camera and Vision</h2>
-        <p>We changed the plan and used the loaner laptop directly for vision.</p>
-        <p>On the loaner laptop the camera worked much better.</p>
-        <p>MediaPipe hands could detect the hand landmarks in real time.</p>
-        <p>This change saved time and made the vision part possible.</p>
+        <p>• Switched to loaner laptop for direct camera access</p>
+        <p>• Camera performance significantly improved</p>
+        <p>• MediaPipe hands successfully detected hand landmarks in real-time</p>
+        <p>• Solution saved time and enabled vision implementation</p>
       </section>
 
       <section className="section">
@@ -29,14 +29,14 @@ function CameraTurtlesim() {
         <div className="two-column">
           <div className="column">
             <h3>Move File</h3>
-            <p>One python file sends move commands to turtlesim.</p>
-            <p>It publishes linear and angular velocity to a turtlesim command topic.</p>
+            <p>• Sends move commands to turtlesim</p>
+            <p>• Publishes linear and angular velocity to command topic</p>
           </div>
           <div className="column">
             <h3>Hands File</h3>
-            <p>Another python file reads camera frames from the camera.</p>
-            <p>It uses MediaPipe hands to track the hand.</p>
-            <p>It maps hand positions or gestures to motion commands.</p>
+            <p>• Reads camera frames from camera</p>
+            <p>• Uses MediaPipe hands for hand tracking</p>
+            <p>• Maps hand positions/gestures to motion commands</p>
           </div>
         </div>
       </section>
@@ -44,13 +44,13 @@ function CameraTurtlesim() {
       <section className="section">
         <h2>Full Flow for Hand Controlled Turtle</h2>
         <div className="flow-diagram">
-          <div className="flow-item">Camera captures the hand</div>
+          <div className="flow-item">Camera captures hand</div>
           <div className="flow-arrow">↓</div>
-          <div className="flow-item">MediaPipe hands finds key points in the image</div>
+          <div className="flow-item">MediaPipe detects hand key points</div>
           <div className="flow-arrow">↓</div>
-          <div className="flow-item">A ROS2 node converts the hand data to velocity messages</div>
+          <div className="flow-item">ROS2 node converts to velocity messages</div>
           <div className="flow-arrow">↓</div>
-          <div className="flow-item">Turtlesim subscriber receives the messages and moves the turtle</div>
+          <div className="flow-item">Turtlesim receives messages and moves turtle</div>
         </div>
       </section>
 

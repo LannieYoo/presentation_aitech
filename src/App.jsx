@@ -12,10 +12,10 @@ import './App.css'
 const pages = [
   { path: '/', title: 'Home', component: Intro },
   { path: '/introduction', title: 'Introduction', component: Introduction },
-  { path: '/ros2-setup', title: 'ROS2 and Setup', component: ROS2Setup },
-  { path: '/camera-turtlesim', title: 'Camera and Turtlesim', component: CameraTurtlesim },
-  { path: '/network-performance', title: 'Network and Performance', component: NetworkPerformance },
-  { path: '/conclusion', title: 'Conclusion and Advice', component: Conclusion },
+  { path: '/ros2-setup', title: 'ROS2 & Setup', component: ROS2Setup },
+  { path: '/camera-turtlesim', title: 'Camera & Turtlesim', component: CameraTurtlesim },
+  { path: '/network-performance', title: 'Network & Performance', component: NetworkPerformance },
+  { path: '/conclusion', title: 'Conclusion & Advice', component: Conclusion },
 ]
 
 function ScrollToTop() {

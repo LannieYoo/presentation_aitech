@@ -10,30 +10,30 @@ function Introduction() {
 
       <section className="section">
         <h2>Context of the Course</h2>
-        <p>We study ROS2 in the AISD program.</p>
-        <p>The labs and the assignment ask us to connect ROS2 with vision.</p>
-        <p>First we work with turtlesim and hand tracking.</p>
-        <p>Later students can extend the same idea to the Create3 robot.</p>
+        <p>• Study ROS2 in the AISD program</p>
+        <p>• Labs and assignment connect ROS2 with vision</p>
+        <p>• First work with turtlesim and hand tracking</p>
+        <p>• Later extend same idea to Create3 robot</p>
       </section>
 
       <section className="section">
         <h2>Goal of Our Project</h2>
-        <p>Use a camera and MediaPipe hands to control turtlesim.</p>
-        <p>Understand how ROS2 nodes, topics, publishers, and subscribers work together.</p>
-        <p>Learn from real environment problems such as wifi setup, camera support, and network delay.</p>
-        <p>Prepare useful tips for future students who will do the same labs.</p>
+        <p>• Use camera and MediaPipe hands to control turtlesim</p>
+        <p>• Understand how ROS2 nodes, topics, publishers, and subscribers work together</p>
+        <p>• Learn from real environment problems: wifi setup, camera support, network delay</p>
+        <p>• Prepare useful tips for future students doing same labs</p>
       </section>
 
       <section className="section">
         <h2>System Overview</h2>
         <div className="flow-diagram">
-          <div className="flow-item">A ROS2 node reads camera frames</div>
+          <div className="flow-item">ROS2 node reads camera frames</div>
           <div className="flow-arrow">↓</div>
           <div className="flow-item">MediaPipe hands detects hand landmarks</div>
           <div className="flow-arrow">↓</div>
-          <div className="flow-item">Another ROS2 node sends motion commands to turtlesim</div>
+          <div className="flow-item">ROS2 node sends motion commands to turtlesim</div>
           <div className="flow-arrow">↓</div>
-          <div className="flow-item">All messages move over topics inside ROS2</div>
+          <div className="flow-item">Messages move over topics in ROS2</div>
         </div>
       </section>
 
