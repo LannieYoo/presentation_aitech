@@ -20,12 +20,12 @@ function Intro() {
                 <p className="team-card-id">041127158</p>
               </div>
               <div className="home-team-card">
-                <h3 className="team-card-name">Hye Ran Yoo</h3>
-                <p className="team-card-id">041145212</p>
-              </div>
-              <div className="home-team-card">
                 <h3 className="team-card-name">Joseph Weng</h3>
                 <p className="team-card-id">041076091</p>
+              </div>
+              <div className="home-team-card">
+                <h3 className="team-card-name">Hye Ran Yoo</h3>
+                <p className="team-card-id">041145212</p>
               </div>
               <div className="home-team-card">
                 <h3 className="team-card-name">Peng Wang</h3>

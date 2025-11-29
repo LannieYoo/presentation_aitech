@@ -5,7 +5,7 @@ function NetworkPerformance() {
     <div className="page">
       <div className="page-header">
         <h1>Network Delays and Lab Environment Issues</h1>
-        <p className="presenter">Speaker: Peng Wang</p>
+        <p className="presenter">Speaker: Jiaxing YI</p>
       </div>
 
       <section className="section">

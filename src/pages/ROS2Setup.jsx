@@ -5,7 +5,7 @@ function ROS2Setup() {
     <div className="page">
       <div className="page-header">
         <h1>First Steps with ROS2 and System Setup</h1>
-        <p className="presenter">Speaker: Hye Ran Yoo</p>
+        <p className="presenter">Speaker: Joseph Weng</p>
       </div>
 
       <section className="section">
