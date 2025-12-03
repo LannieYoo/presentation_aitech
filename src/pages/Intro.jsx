@@ -18,18 +18,22 @@ function Intro() {
               <div className="home-team-card">
                 <h3 className="team-card-name">Jiaxing YI</h3>
                 <p className="team-card-id">041127158</p>
+                <p className="team-card-role" style={{ fontSize: '0.9rem', color: '#666', marginTop: '0.5rem' }}>Speaker</p>
               </div>
               <div className="home-team-card">
                 <h3 className="team-card-name">Joseph Weng</h3>
                 <p className="team-card-id">041076091</p>
+                <p className="team-card-role" style={{ fontSize: '0.9rem', color: '#666', marginTop: '0.5rem' }}>Speaker</p>
               </div>
               <div className="home-team-card">
                 <h3 className="team-card-name">Hye Ran Yoo</h3>
                 <p className="team-card-id">041145212</p>
+                <p className="team-card-role" style={{ fontSize: '0.9rem', color: '#666', marginTop: '0.5rem' }}>Site Development & Content</p>
               </div>
               <div className="home-team-card">
                 <h3 className="team-card-name">Peng Wang</h3>
                 <p className="team-card-id">041107730</p>
+                <p className="team-card-role" style={{ fontSize: '0.9rem', color: '#666', marginTop: '0.5rem' }}>Site Development & Content</p>
               </div>
             </div>
           </div>
